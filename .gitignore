@@ -1,0 +1,4 @@
+datasets/fer2013/fer2013.csv
+datasets/fer2013/fer2013.bib
+datasets/fer2013/example_submission.csv
+src/__pycache__/*
