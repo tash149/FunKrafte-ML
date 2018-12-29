@@ -3,3 +3,10 @@ datasets/fer2013/fer2013.bib
 datasets/fer2013/example_submission.csv
 datasets/fer2013/*
 src/__pycache__/*
+flapp/.idea/
+flapp/venv/bin/
+flapp/venv/lib/
+flapp/venv/lib64
+flapp/venv/pip-selfcheck.json
+flapp/venv/pyvenv.cfg
+flapp/venv/src/__pycache__/
