@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "800842775013",
+    "firebase_url": "https://fluttcam-108f4.firebaseio.com",
+    "project_id": "fluttcam-108f4",
+    "storage_bucket": "fluttcam-108f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800842775013:android:31986f46a43aabf8",
+        "android_client_info": {
+          "package_name": "com.example.fluttcam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800842775013-sj3ok2vn47gvoeoucqa1doc0a8v5981l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqAIh5-1J-Dvhs5djEW3uj8ResEU27g0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
