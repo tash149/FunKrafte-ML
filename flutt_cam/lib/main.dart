@@ -33,84 +33,71 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      theme: ThemeData(
+        brightness: Brightness.light,
+        primaryColor: Colors.deepPurple[400],
+        accentColor: Colors.deepPurpleAccent[200],
+      ),
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text('Face Detection Firebase'),
         ),
         body: showBody(_file),
-        /*floatingActionButton: new FloatingActionButton(
-          onPressed: () async{
-            var file = await ImagePicker.pickImage(source: ImageSource.camera);
-            setState(() {
-              _file = file;
-            });
-
-            var face =
-            await detector.detectFromBinary(_file?.readAsBytesSync(), options);
-            setState(() {
-              if (face.isEmpty) {
-                print('No face detected');
-              } else {
-                _face = face;
-              }
-            });
-          },
-          child: new Icon(Icons.tag_faces),
-        ),*/
       ),
     );
   }
 
   Widget showBody(File file) {
     return new Container(
-      child: new Stack(
-        children: <Widget>[
-          _buildImage(),
-          _showDetails(_face),
-          Align(
-            alignment: Alignment.bottomLeft,
-            child: new FloatingActionButton(
-              onPressed: () async{
-                var file = await ImagePicker.pickImage(source: ImageSource.gallery);
-                setState(() {
-                  _file = file;
-                });
-                var face =
-                await detector.detectFromBinary(_file?.readAsBytesSync(), options);
-                setState(() {
-                  if (face.isEmpty) {
-                    print('No face detected');
-                  } else {
-                    _face = face;
-                  }
-                });
-              },
-              child: new Icon(Icons.tag_faces),
+        child: new Stack(
+          children: <Widget>[
+            _buildImage(),
+            _showDetails(_face),
+
+            Align(
+              alignment: Alignment(-0.9, 0.9),
+              child: new FloatingActionButton(
+                onPressed: () async{
+                  var file = await ImagePicker.pickImage(source: ImageSource.gallery);
+                  setState(() {
+                    _file = file;
+                  });
+                  var face =
+                  await detector.detectFromBinary(_file?.readAsBytesSync(), options);
+                  setState(() {
+                    if (face.isEmpty) {
+                      print('No face detected');
+                    } else {
+                      _face = face;
+                    }
+                  });
+                },
+                child: new Icon(Icons.tag_faces),
+              ),
             ),
-          ),
-          Align(
-            alignment: Alignment.bottomRight,
-            child: new FloatingActionButton(
-              onPressed: () async{
-                var file = await ImagePicker.pickImage(source: ImageSource.camera);
-                setState(() {
-                  _file = file;
-                });
-                var face =
-                await detector.detectFromBinary(_file?.readAsBytesSync(), options);
-                setState(() {
-                  if (face.isEmpty) {
-                    print('No face detected');
-                  } else {
-                    _face = face;
-                  }
-                });
-              },
-              child: new Icon(Icons.camera_alt),
-            ),
-          )
-        ],
-      )
+            Align(
+              alignment: Alignment(0.9,0.9),
+              child: new FloatingActionButton(
+                onPressed: () async{
+                  var file = await ImagePicker.pickImage(source: ImageSource.camera);
+                  setState(() {
+                    _file = file;
+                  });
+                  var face =
+                  await detector.detectFromBinary(_file?.readAsBytesSync(), options);
+                  setState(() {
+                    if (face.isEmpty) {
+                      print('No face detected');
+                    } else {
+                      _face = face;
+                    }
+                  });
+                },
+                child: new Icon(Icons.camera_alt),
+              ),
+            )
+          ],
+        )
     );
   }
 
@@ -170,7 +157,7 @@ Widget _showDetails(List<VisionFace> faceList) {
       itemBuilder: (context, i) {
         checkData(faceList);
         return _buildRow(
-            faceList[0].smilingProbability,
+          faceList[0].smilingProbability,
         );
       },
     ),
