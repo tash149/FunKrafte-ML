@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:path/path.dart';
+import 'dart:convert';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:mlkit/mlkit.dart';
 import 'dart:async';
+import 'package:async/async.dart';
+//import 'package:flutt_cam/flapp/server.py'
+import 'package:http/http.dart' as http;
+import 'package:firebase_storage/firebase_storage.dart';
+
 
 void main() => runApp(new MyApp());
 
@@ -13,7 +20,19 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   File _file;
-
+  upload(File imageFile) async {
+    var stream = new http.ByteStream(DelegatingStream.typed(imageFile.openRead()));
+    var length = await imageFile.length();
+    var uri = Uri.parse("http://127.0.0.1:5000/");
+    var request = new http.MultipartRequest("POST", uri);
+    var multipartFile = new http.MultipartFile('file', stream, length, filename: basename(imageFile.path));
+    request.files.add(multipartFile);
+    var response = await request.send();
+    print(response.statusCode);
+    response.stream.transform(utf8.decoder).listen((value){
+      print(value);
+    });
+  }
   List<VisionFace> _face = <VisionFace>[];
 
   VisionFaceDetectorOptions options = new VisionFaceDetectorOptions(
@@ -62,6 +81,7 @@ class _MyAppState extends State<MyApp> {
                   setState(() {
                     _file = file;
                   });
+                  //var result = await platform.invokeMethod('pickImage', stringImageSource);
                   var face =
                   await detector.detectFromBinary(_file?.readAsBytesSync(), options);
                   setState(() {
@@ -95,6 +115,21 @@ class _MyAppState extends State<MyApp> {
                 },
                 child: new Icon(Icons.camera_alt),
               ),
+            ),
+            Align(
+              alignment: Alignment(0.0,0.9),
+              child: new RaisedButton(
+                elevation: 7.0,
+                child: Text('Upload'),
+                textColor: Colors.white,
+                color: Colors.blue,
+                onPressed: () {
+                  final StorageReference firebaseStorageRef =
+                  FirebaseStorage.instance.ref().child('myimage.jpg');
+                  final StorageUploadTask task =
+                  firebaseStorageRef.putFile(_file);
+                },
+              )
             )
           ],
         )
@@ -106,7 +141,7 @@ class _MyAppState extends State<MyApp> {
       height: 500.0,
       child: new Center(
         child: _file == null
-            ? new Text('Select image using Floating Button...')
+            ? new Text('')
             : new FutureBuilder<Size>(
           future: _getImageSize(Image.file(_file, fit: BoxFit.fitWidth)),
           builder: (BuildContext context, AsyncSnapshot<Size> snapshot) {
@@ -173,22 +208,9 @@ void checkData(List<VisionFace> faceList) {
     Rect bounds = faceList[i].rect;
     print('Rectangle : $bounds');
 
-    VisionFaceLandmark landmark =
-    faceList[i].getLandmark(FaceLandmarkType.LeftEar);
-
-    if (landmark != null) {
-      VisionPoint leftEarPos = landmark.position;
-      print('Left Ear Pos : $leftEarPos');
-    }
-
     if (faceList[i].smilingProbability != uncomputedProb) {
       double smileProb = faceList[i].smilingProbability;
       print('Smile Prob : $smileProb');
-    }
-
-    if (faceList[i].rightEyeOpenProbability != uncomputedProb) {
-      double rightEyeOpenProb = faceList[i].rightEyeOpenProbability;
-      print('RightEye Open Prob : $rightEyeOpenProb');
     }
 
     if (faceList[i].trackingID != uncompProb) {
@@ -198,14 +220,7 @@ void checkData(List<VisionFace> faceList) {
   }
 }
 
-/*
-    HeadEulerY : Head is rotated to right by headEulerY degrees
-    HeadEulerZ : Head is tilted sideways by headEulerZ degrees
-    LeftEyeOpenProbability : left Eye Open Probability
-    RightEyeOpenProbability : right Eye Open Probability
-    SmilingProbability : Smiling probability
-    Tracking ID : If face tracking is enabled
-  */
+
 Widget _buildRow(
     double smileProb,
     ) {
