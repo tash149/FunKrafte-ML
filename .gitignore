@@ -10,3 +10,4 @@ flapp/venv/lib64
 flapp/venv/pip-selfcheck.json
 flapp/venv/pyvenv.cfg
 flapp/venv/src/__pycache__/
+flapp/venv/src/credentials.json
