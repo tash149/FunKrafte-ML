@@ -1,0 +1,31 @@
+name: funkrafte
+description: Flutter App for FunKrafte
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  google_sign_in: any
+  firebase_auth: any
+  cached_network_image: any
+  firebase_storage: any
+  cloud_firestore: any
+  image_picker: ^0.4.10
+  url_launcher: ^4.0.3
+  photo_view: any
+  camera: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/glogo.png

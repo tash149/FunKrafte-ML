@@ -1,0 +1,510 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:google_sign_in] /home/tash149/Documents/FunKrafte/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_storage] /home/tash149/Documents/FunKrafte/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-14:12
+MERGED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-10:12
+MERGED from [:path_provider] /home/tash149/Documents/FunKrafte/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /home/tash149/Documents/FunKrafte/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /home/tash149/Documents/FunKrafte/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
+MERGED from [:firebase_core] /home/tash149/Documents/FunKrafte/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] /home/tash149/Documents/FunKrafte/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/b57f9bc151bc661348be90597c008478/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/f075462e5cf42e163db90f39a6b5dec9/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/bb2d1edbb2880c18f6d358deccfecfd8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0acbea6d86025a39c13f90a31f85648b/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/b39dc449c3cb416f56d49724a5e4531e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/8e4cb80428783a5c7e8456388fe0832e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1140ae150be6293ab06c7cf662b97338/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/da4bdf4005ecc3bddf1e9dd2a489cad9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/43e21b62cce87158dbf997d6396c593d/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e0943df61cb9ef3cd3013fe2881a8fcd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5c901fd55e3383590ae7c4934432f14d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/df3ca6dbf13269f63304632c29c08d36/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f70e7d2f1471789c51cb0cee427d4898/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f594472e551104178cc7cd84f138beee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/910590a2986a5a5c0b763ddf43d68ac0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/aaa25ff6268f0d5011596006276af5d5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1bf8168636e61e4765bb809f420e7b5d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/127427321feb950b372aa7a94fc9f979/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6ecb10adc5dd2b7514fee74a704b25f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/78ecc51ceca33b621acc0caaa6cd683d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cd9043c836d37cb92ff96517fb044f5d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/dd8bf9cf6c53ce05a48362d61a44c8f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.0.aar/5aabdd14bf9f9cd8d77a7443e458cee8/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/592ade10f27080908da224f275da701a/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:2:5-28
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [:google_sign_in] /home/tash149/Documents/FunKrafte/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /home/tash149/Documents/FunKrafte/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:8:22-64
+application
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:15:5-38:19
+MERGED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-12:19
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/b57f9bc151bc661348be90597c008478/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/b57f9bc151bc661348be90597c008478/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0acbea6d86025a39c13f90a31f85648b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0acbea6d86025a39c13f90a31f85648b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/8e4cb80428783a5c7e8456388fe0832e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/8e4cb80428783a5c7e8456388fe0832e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1140ae150be6293ab06c7cf662b97338/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1140ae150be6293ab06c7cf662b97338/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/da4bdf4005ecc3bddf1e9dd2a489cad9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/da4bdf4005ecc3bddf1e9dd2a489cad9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e0943df61cb9ef3cd3013fe2881a8fcd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e0943df61cb9ef3cd3013fe2881a8fcd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5c901fd55e3383590ae7c4934432f14d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5c901fd55e3383590ae7c4934432f14d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/df3ca6dbf13269f63304632c29c08d36/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/df3ca6dbf13269f63304632c29c08d36/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f70e7d2f1471789c51cb0cee427d4898/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f70e7d2f1471789c51cb0cee427d4898/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:22:5-26:19
+	android:label
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:17:9-34
+	android:icon
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:18:9-43
+	android:name
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:16:9-57
+activity#com.funkrafte.MainActivity
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:19:9-37:20
+	android:launchMode
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:configChanges
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:23:13-137
+	android:theme
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:20:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:30:13-32:40
+	android:value
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:32:17-37
+	android:name
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:31:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+MERGED from [:google_sign_in] /home/tash149/Documents/FunKrafte/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /home/tash149/Documents/FunKrafte/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/tash149/Documents/FunKrafte/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/tash149/Documents/FunKrafte/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/tash149/Documents/FunKrafte/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/tash149/Documents/FunKrafte/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/tash149/Documents/FunKrafte/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/tash149/Documents/FunKrafte/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/tash149/Documents/FunKrafte/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/tash149/Documents/FunKrafte/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/tash149/Documents/FunKrafte/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/tash149/Documents/FunKrafte/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/tash149/Documents/FunKrafte/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/tash149/Documents/FunKrafte/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/b57f9bc151bc661348be90597c008478/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/b57f9bc151bc661348be90597c008478/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/f075462e5cf42e163db90f39a6b5dec9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-16.0.0.aar/f075462e5cf42e163db90f39a6b5dec9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/bb2d1edbb2880c18f6d358deccfecfd8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-16.0.0.aar/bb2d1edbb2880c18f6d358deccfecfd8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0acbea6d86025a39c13f90a31f85648b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0acbea6d86025a39c13f90a31f85648b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/b39dc449c3cb416f56d49724a5e4531e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/b39dc449c3cb416f56d49724a5e4531e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/8e4cb80428783a5c7e8456388fe0832e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/8e4cb80428783a5c7e8456388fe0832e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1140ae150be6293ab06c7cf662b97338/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/1140ae150be6293ab06c7cf662b97338/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/da4bdf4005ecc3bddf1e9dd2a489cad9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/da4bdf4005ecc3bddf1e9dd2a489cad9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/43e21b62cce87158dbf997d6396c593d/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/43e21b62cce87158dbf997d6396c593d/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e0943df61cb9ef3cd3013fe2881a8fcd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e0943df61cb9ef3cd3013fe2881a8fcd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5c901fd55e3383590ae7c4934432f14d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/5c901fd55e3383590ae7c4934432f14d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/df3ca6dbf13269f63304632c29c08d36/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/df3ca6dbf13269f63304632c29c08d36/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f70e7d2f1471789c51cb0cee427d4898/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f70e7d2f1471789c51cb0cee427d4898/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f594472e551104178cc7cd84f138beee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f594472e551104178cc7cd84f138beee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/910590a2986a5a5c0b763ddf43d68ac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/910590a2986a5a5c0b763ddf43d68ac0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/aaa25ff6268f0d5011596006276af5d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/aaa25ff6268f0d5011596006276af5d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1bf8168636e61e4765bb809f420e7b5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/1bf8168636e61e4765bb809f420e7b5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/127427321feb950b372aa7a94fc9f979/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/127427321feb950b372aa7a94fc9f979/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6ecb10adc5dd2b7514fee74a704b25f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6ecb10adc5dd2b7514fee74a704b25f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/78ecc51ceca33b621acc0caaa6cd683d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/78ecc51ceca33b621acc0caaa6cd683d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cd9043c836d37cb92ff96517fb044f5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cd9043c836d37cb92ff96517fb044f5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/dd8bf9cf6c53ce05a48362d61a44c8f2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/dd8bf9cf6c53ce05a48362d61a44c8f2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.0.aar/5aabdd14bf9f9cd8d77a7443e458cee8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.0.aar/5aabdd14bf9f9cd8d77a7443e458cee8/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/592ade10f27080908da224f275da701a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/tash149/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/592ade10f27080908da224f275da701a/AndroidManifest.xml:20:5-44
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tash149/Documents/FunKrafte/android/app/src/main/AndroidManifest.xml
+activity#io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity
+ADDED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /home/tash149/Documents/FunKrafte/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-92
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-65
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+MERGED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from [:camera] /home/tash149/Documents/FunKrafte/build/camera/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-74
+	android:exported
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-19:75
+	android:resource
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:17-72
+	android:name
+		ADDED from [:image_picker] /home/tash149/Documents/FunKrafte/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.1.aar/1718bdaa0e38cda99b392425e169809a/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.3.aar/0de63917dd82be91dd3086b560061efc/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:10:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:14:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.1.aar/132dfb87a749ff71e41d61edc606aa52/AndroidManifest.xml:16:17-111
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:24:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/c687a173a4c0c819bf2ff51caa1939c0/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/7153eac867f5671043f8b902f3d44766/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/2e13f524c45c5450f2142753c66b12e3/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/d9300fe76aab94279a6be227f6c165b2/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/5b391b62afc026c0a4da1af3a179625c/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1306e47ede634963c6e90de750db908c/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/tash149/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/debe149416289ba0b2e95cc705ea0e90/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/tash149/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/6c4502e068f6cf3185afc2ad8d8188b5/AndroidManifest.xml:24:13-58

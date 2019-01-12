@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "893767300716",
+    "firebase_url": "https://funkrafte-300f3.firebaseio.com",
+    "project_id": "funkrafte-300f3",
+    "storage_bucket": "funkrafte-300f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893767300716:android:c1060ce4fb4dd809",
+        "android_client_info": {
+          "package_name": "com.funkrafte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893767300716-60ccahgqb799p1d2r6d5utp1051k9ae2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxImok9CjpmxKORXgX4GPhQGAvp-0VgZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
