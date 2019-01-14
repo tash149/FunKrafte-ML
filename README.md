@@ -3,6 +3,9 @@
 The social and registration service for FunKrafte. Also includes emotion recognition by face.
 Developed by @AgentFabulous and @tash149
 
+## Screenshots:relaxed:
+/home/tash149/Downloads/Screenshot_2019-01-14-16-52-14-056_com.funkrafte.png
+
 ## App
 - To prepare the app for release, make sure you follow the instructions to setup firebase for your application.
 - The app will create and manage required collections in Firestore database by itself, you just need to update the google-services.json.
