@@ -4,7 +4,7 @@ The social and registration service for FunKrafte. Also includes emotion recogni
 Developed by @AgentFabulous and @tash149
 
 ## Screenshots:relaxed:
-/home/tash149/Downloads/Screenshot_2019-01-14-16-52-14-056_com.funkrafte.png
+![screenshot_2019-01-14-16-52-14-056_com funkrafte](https://user-images.githubusercontent.com/39271055/51160203-f975c100-18b2-11e9-882b-e83f199e5303.png)
 
 ## App
 - To prepare the app for release, make sure you follow the instructions to setup firebase for your application.
