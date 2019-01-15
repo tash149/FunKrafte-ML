@@ -4,10 +4,10 @@ The social and registration service for FunKrafte. Also includes emotion recogni
 Developed by @AgentFabulous and @tash149
 
 ## Screenshots:relaxed:
-<img src="https://user-images.githubusercontent.com/39271055/51160331-828cf800-18b3-11e9-9e1b-b09b1b7906a8.png" width="250" height="400"/>
-![screenshot_2019-01-14-16-51-45-124_com funkrafte](https://user-images.githubusercontent.com/39271055/51160339-891b6f80-18b3-11e9-922d-ad9ce3cdf91f.png)
-![screenshot_2019-01-14-16-52-14-056_com funkrafte](https://user-images.githubusercontent.com/39271055/51160203-f975c100-18b2-11e9-882b-e83f199e5303.png)
-![Uploading ezgif.com-video-cutter.gif…]()
+<img src="https://user-images.githubusercontent.com/39271055/51160331-828cf800-18b3-11e9-9e1b-b09b1b7906a8.png" width="230" height="400"/>
+<img src="https://user-images.githubusercontent.com/39271055/51160339-891b6f80-18b3-11e9-922d-ad9ce3cdf91f.png" width="230" height="400"/>
+<img src="https://user-images.githubusercontent.com/39271055/51160203-f975c100-18b2-11e9-882b-e83f199e5303.png" width="230" height="400"/>
+![](FunGif.gif)
 
 ## App
 - To prepare the app for release, make sure you follow the instructions to setup firebase for your application.
