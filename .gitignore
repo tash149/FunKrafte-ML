@@ -1,4 +1,5 @@
 venv/*
+android/app/google-services.json
 py-server/credentials.json
 datasets/fer2013/fer2013.csv
 datasets/fer2013/fer2013.bib
